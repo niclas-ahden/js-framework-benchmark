@@ -1,0 +1,21 @@
+{
+  "name": "js-framework-benchmark-non-keyed-joy",
+  "version": "1.0.0",
+  "description": "Joy demo (non-keyed)",
+  "js-framework-benchmark": {
+    "frameworkVersion": "0.0.1",
+    "frameworkHomeURL": "https://github.com/niclas-ahden/joy",
+    "customURL": "/dist",
+    "issues": [],
+    "language": "Roc"
+  },
+  "scripts": {
+    "dev": "./build.sh",
+    "build-prod": "./build.sh"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krausest/js-framework-benchmark.git"
+  }
+}

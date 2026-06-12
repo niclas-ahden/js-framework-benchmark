@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Joy</title>
+  <link href="/css/currentStyle.css" rel="stylesheet"/>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module">
+    import init, { run } from "./pkg/web.js";
+    init("./pkg/web_bg.wasm").then(() => run(""));
+  </script>
+</body>
+</html>
