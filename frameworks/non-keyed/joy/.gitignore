@@ -1,0 +1,8 @@
+# Local build artifacts produced by build.sh / the roc toolchain.
+# (dist/ is already ignored at the repo root.)
+
+# Roc-emitted LLVM IR (main.ll)
+*.ll
+
+# Compiled validate.roc binary (the .roc source is tracked)
+/validate
